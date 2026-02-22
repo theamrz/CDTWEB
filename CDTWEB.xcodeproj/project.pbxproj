@@ -6,17 +6,57 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1A50AC162E810D5E009E6A27 /* FolderPickerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A50AC152E810D5E009E6A27 /* FolderPickerButton.swift */; };
+		1A50AC182E810D81009E6A27 /* FileListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A50AC172E810D81009E6A27 /* FileListView.swift */; };
+		1A50AC1A2E810DD0009E6A27 /* FileEnumerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A50AC192E810DD0009E6A27 /* FileEnumerator.swift */; };
+		1A50AC1C2E810DF6009E6A27 /* WorkspaceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A50AC1B2E810DF6009E6A27 /* WorkspaceStore.swift */; };
+		1A50AC1E2E810EEC009E6A27 /* WriteFromBlocksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A50AC1D2E810EEC009E6A27 /* WriteFromBlocksView.swift */; };
+		1A50AC202E810F0F009E6A27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A50AC1F2E810F0F009E6A27 /* ContentView.swift */; };
+		1A50AC222E810F2F009E6A27 /* ToolboxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A50AC212E810F2F009E6A27 /* ToolboxApp.swift */; };
+		1A50AC232E811100009E6A27 /* AtomicWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A50AC272E811100009E6A27 /* AtomicWriter.swift */; };
+		1A50AC242E811100009E6A27 /* BackupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A50AC282E811100009E6A27 /* BackupService.swift */; };
+		1A50AC252E811100009E6A27 /* BlockFileParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A50AC292E811100009E6A27 /* BlockFileParser.swift */; };
+		1A50AC262E811100009E6A27 /* DiffService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A50AC2A2E811100009E6A27 /* DiffService.swift */; };
+		1A50AC2B2E811100009E6A27 /* FileGuard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A50AC2C2E811100009E6A27 /* FileGuard.swift */; };
+		1A50AC2F2E8114B4009E6A27 /* LiquidGlass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A50AC2E2E8114B4009E6A27 /* LiquidGlass.swift */; };
+		19E10BD5D72A4415A1041E0C /* BackupConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487C91E72791499F95043E7B /* BackupConfiguration.swift */; };
+		1372E2F2C1A941DCB8551B89 /* SnapshotService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B53426DB82340C69E2F5FFD /* SnapshotService.swift */; };
+		BA6D2ED21D9149AF8E1FA97D /* JalaliDateConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC9EF430B3641559A9DD384 /* JalaliDateConverter.swift */; };
+		DDB7CFEC90BA434D89B814BF /* SnapshotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735E7D7684C5429C93C5F3E4 /* SnapshotView.swift */; };
+		1E509483F6A74CAAB68F1009 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A739849B433E44859CD531DD /* Assets.xcassets */; };
+		1372E2F2C1A941DCB8551B89 /* SnapshotService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B53426DB82340C69E2F5FFD /* SnapshotService.swift */; };
+		19E10BD5D72A4415A1041E0C /* BackupConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487C91E72791499F95043E7B /* BackupConfiguration.swift */; };
+		BA6D2ED21D9149AF8E1FA97D /* JalaliDateConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC9EF430B3641559A9DD384 /* JalaliDateConverter.swift */; };
+		DDB7CFEC90BA434D89B814BF /* SnapshotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735E7D7684C5429C93C5F3E4 /* SnapshotView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		1A50AC012E8109E6009E6A27 /* CDTWEB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CDTWEB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A50AC142E810D5E009E6A27 /* CDTWEB-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CDTWEB-Bridging-Header.h"; sourceTree = "<group>"; };
+		1A50AC152E810D5E009E6A27 /* FolderPickerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderPickerButton.swift; sourceTree = "<group>"; };
+		1A50AC172E810D81009E6A27 /* FileListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileListView.swift; sourceTree = "<group>"; };
+		1A50AC192E810DD0009E6A27 /* FileEnumerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileEnumerator.swift; sourceTree = "<group>"; };
+		1A50AC1B2E810DF6009E6A27 /* WorkspaceStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkspaceStore.swift; sourceTree = "<group>"; };
+		1A50AC1D2E810EEC009E6A27 /* WriteFromBlocksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteFromBlocksView.swift; sourceTree = "<group>"; };
+		1A50AC1F2E810F0F009E6A27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1A50AC212E810F2F009E6A27 /* ToolboxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolboxApp.swift; sourceTree = "<group>"; };
+		1A50AC272E811100009E6A27 /* AtomicWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomicWriter.swift; sourceTree = "<group>"; };
+		1A50AC282E811100009E6A27 /* BackupService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupService.swift; sourceTree = "<group>"; };
+		1A50AC292E811100009E6A27 /* BlockFileParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockFileParser.swift; sourceTree = "<group>"; };
+		1A50AC2A2E811100009E6A27 /* DiffService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffService.swift; sourceTree = "<group>"; };
+		1A50AC2C2E811100009E6A27 /* FileGuard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileGuard.swift; sourceTree = "<group>"; };
+		1A50AC2E2E8114B4009E6A27 /* LiquidGlass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidGlass.swift; sourceTree = "<group>"; };
+		487C91E72791499F95043E7B /* BackupConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupConfiguration.swift; sourceTree = "<group>"; };
+		3B53426DB82340C69E2F5FFD /* SnapshotService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotService.swift; sourceTree = "<group>"; };
+		ECC9EF430B3641559A9DD384 /* JalaliDateConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JalaliDateConverter.swift; sourceTree = "<group>"; };
+		735E7D7684C5429C93C5F3E4 /* SnapshotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotView.swift; sourceTree = "<group>"; };
+		A739849B433E44859CD531DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B53426DB82340C69E2F5FFD /* SnapshotService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotService.swift; sourceTree = "<group>"; };
+		487C91E72791499F95043E7B /* BackupConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupConfiguration.swift; sourceTree = "<group>"; };
+		735E7D7684C5429C93C5F3E4 /* SnapshotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotView.swift; sourceTree = "<group>"; };
+		ECC9EF430B3641559A9DD384 /* JalaliDateConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JalaliDateConverter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		1A50AC032E8109E6009E6A27 /* CDTWEB */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CDTWEB;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1A50ABFE2E8109E6009E6A27 /* Frameworks */ = {
@@ -32,8 +72,13 @@
 		1A50ABF82E8109E6009E6A27 = {
 			isa = PBXGroup;
 			children = (
-				1A50AC032E8109E6009E6A27 /* CDTWEB */,
+				1A50AC1F2E810F0F009E6A27 /* ContentView.swift */,
+				1A50AC212E810F2F009E6A27 /* ToolboxApp.swift */,
+				A739849B433E44859CD531DD /* Assets.xcassets */,
 				1A50AC022E8109E6009E6A27 /* Products */,
+				1A50AC102E810ACE009E6A27 /* UI */,
+				1A50AC122E810BA2009E6A27 /* Core */,
+				1A50AC132E810BAD009E6A27 /* Views */,
 			);
 			sourceTree = "<group>";
 		};
@@ -43,6 +88,43 @@
 				1A50AC012E8109E6009E6A27 /* CDTWEB.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		1A50AC102E810ACE009E6A27 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1A50AC152E810D5E009E6A27 /* FolderPickerButton.swift */,
+				1A50AC172E810D81009E6A27 /* FileListView.swift */,
+				1A50AC2E2E8114B4009E6A27 /* LiquidGlass.swift */,
+				1A50AC142E810D5E009E6A27 /* CDTWEB-Bridging-Header.h */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		1A50AC122E810BA2009E6A27 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				487C91E72791499F95043E7B /* BackupConfiguration.swift */,
+				1A50AC192E810DD0009E6A27 /* FileEnumerator.swift */,
+				ECC9EF430B3641559A9DD384 /* JalaliDateConverter.swift */,
+				1A50AC1B2E810DF6009E6A27 /* WorkspaceStore.swift */,
+ 				1A50AC2C2E811100009E6A27 /* FileGuard.swift */,
+ 				1A50AC2A2E811100009E6A27 /* DiffService.swift */,
+ 				1A50AC292E811100009E6A27 /* BlockFileParser.swift */,
+ 				1A50AC272E811100009E6A27 /* AtomicWriter.swift */,
+ 				1A50AC282E811100009E6A27 /* BackupService.swift */,
+				3B53426DB82340C69E2F5FFD /* SnapshotService.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		1A50AC132E810BAD009E6A27 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				735E7D7684C5429C93C5F3E4 /* SnapshotView.swift */,
+				1A50AC1D2E810EEC009E6A27 /* WriteFromBlocksView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +141,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				1A50AC032E8109E6009E6A27 /* CDTWEB */,
 			);
 			name = CDTWEB;
 			packageProductDependencies = (
@@ -82,6 +161,7 @@
 				TargetAttributes = {
 					1A50AC002E8109E6009E6A27 = {
 						CreatedOnToolsVersion = 16.4;
+						LastSwiftMigration = 1640;
 					};
 				};
 			};
@@ -109,6 +189,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E509483F6A74CAAB68F1009 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +200,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A50AC182E810D81009E6A27 /* FileListView.swift in Sources */,
+				1A50AC1A2E810DD0009E6A27 /* FileEnumerator.swift in Sources */,
+				1A50AC202E810F0F009E6A27 /* ContentView.swift in Sources */,
+				1A50AC162E810D5E009E6A27 /* FolderPickerButton.swift in Sources */,
+				1A50AC1C2E810DF6009E6A27 /* WorkspaceStore.swift in Sources */,
+				1A50AC222E810F2F009E6A27 /* ToolboxApp.swift in Sources */,
+				DDB7CFEC90BA434D89B814BF /* SnapshotView.swift in Sources */,
+				1A50AC1E2E810EEC009E6A27 /* WriteFromBlocksView.swift in Sources */,
+				1A50AC232E811100009E6A27 /* AtomicWriter.swift in Sources */,
+				19E10BD5D72A4415A1041E0C /* BackupConfiguration.swift in Sources */,
+				1A50AC242E811100009E6A27 /* BackupService.swift in Sources */,
+				1A50AC252E811100009E6A27 /* BlockFileParser.swift in Sources */,
+				1A50AC262E811100009E6A27 /* DiffService.swift in Sources */,
+				1A50AC2B2E811100009E6A27 /* FileGuard.swift in Sources */,
+				BA6D2ED21D9149AF8E1FA97D /* JalaliDateConverter.swift in Sources */,
+				1A50AC2F2E8114B4009E6A27 /* LiquidGlass.swift in Sources */,
+				1372E2F2C1A941DCB8551B89 /* SnapshotService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,7 +258,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = XHQ3K5S3KS;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -224,7 +322,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = XHQ3K5S3KS;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -250,11 +348,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = CDTWEB/CDTWEB.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = CDTWEB.entitlements;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = XHQ3K5S3KS;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -268,6 +367,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "UI/CDTWEB-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -277,11 +378,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = CDTWEB/CDTWEB.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = CDTWEB.entitlements;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = XHQ3K5S3KS;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -295,6 +397,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "UI/CDTWEB-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;

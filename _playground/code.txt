@@ -1,0 +1,7 @@
+--- README.md ---
+# Hello from Toolbox
+This was written by Write from Blocks.
+
+--- src/demo.txt ---
+Line A
+Line B
